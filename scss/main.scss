@@ -23,7 +23,9 @@ ul {
   list-style: none;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   text-transform: uppercase;
 }
 
@@ -72,7 +74,7 @@ img {
 // Header
 #header {
   &-home {
-    background: url('../img/showcase.jpg') no-repeat center right / cover;    
+    background: url('../img/showcase.jpg') no-repeat center right / cover;
     height: 100vh;
     color: white;
 
@@ -197,7 +199,7 @@ img {
   .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: center;  
+    align-items: center;
     height: 100%;
 
     .fab {
@@ -221,7 +223,7 @@ img {
 #about-a {
   .about-info {
     display: grid;
-    grid-template-areas:'bioimage bio bio' 'aw1 aw2 aw3';
+    grid-template-areas: 'bioimage bio bio''aw1 aw2 aw3';
     grid-gap: 1.2rem;
   }
 
@@ -370,7 +372,10 @@ img {
 
 #contact-c {
   color: set-text-color($main-color);
+
   h1 {
     font-size: 4rem;
   }
 }
+
+@import 'media';
